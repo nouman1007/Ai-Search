@@ -2,8 +2,8 @@ name: Deploy Azure Functions to Azure
 
 on:
   push:
-    branches:
-      - main  # Trigger deployment on push to 'main' branch
+    # branches:
+    #   - main  # Trigger deployment on push to 'main' branch
     paths:
       - 'azure-html-search/**'  # Trigger only when changes occur in the app1 directory
       - '.github/workflows/Ai-Search-Pipeline.yml'
